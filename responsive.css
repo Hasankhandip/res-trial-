@@ -1,0 +1,269 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+@media (max-width: 992px) {
+  .header-section {
+    background: transparent;
+    padding: 25px 0;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+  }
+  .banner-section {
+    margin-top: 145px;
+  }
+  .market-page-1 {
+    background-image: url(img/main-bg.png);
+    background-color: #212224;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .hdr-nav {
+    position: relative;
+  }
+  .hdr-nav ul li {
+    display: block;
+  }
+  .hdr-nav ul {
+    display: flex;
+    background: rgba(0, 0, 0, 0.938);
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    flex-direction: column;
+    justify-content: start;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: scroll;
+    padding-top: 100px;
+  }
+  .hdr-nav ul li a {
+    font-size: 35px;
+  }
+  .hdr-nav ul li {
+    margin: 20px 0;
+    text-align: center;
+  }
+  .check {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    display: block;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .three-dot {
+    visibility: visible;
+    opacity: 100%;
+    display: block;
+  }
+  .three-dot i {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    pointer-events: none;
+    font-size: 38px;
+    color: #fff;
+  }
+  .hdr-nav .check:checked ~ ul {
+    opacity: 1;
+    visibility: visible;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    right: 0;
+    top: 85px;
+  }
+  .cross {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 8px;
+    display: block;
+    cursor: pointer;
+  }
+  .cross i {
+    color: #fff;
+    font-size: 40px !important;
+  }
+  .check:checked ~ .cross {
+    visibility: visible;
+    opacity: 100%;
+    pointer-events: none;
+  }
+  .check:checked ~ .three-dot {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .account-btn > a {
+    font-size: 11px;
+    padding: 10px 12px;
+  }
+  .user-login {
+    margin-left: 20px;
+  }
+  .banner-bottom {
+    display: none;
+  }
+  .banner-text {
+    margin: 0 0 30px 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner-bg {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner-text P {
+    display: none;
+  }
+  .banner-text h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .banner-img img {
+    width: 100%;
+    height: auto;
+  }
+  .banner-carousel {
+    top: 0;
+  }
+  .bann-inner {
+    padding: 0 30px;
+  }
+  .tool-id-img img {
+    right: -10px;
+  }
+  .tool-item-details {
+    margin-bottom: 50px;
+  }
+  .tool-section {
+    padding: 60px 0 40px 0;
+  }
+  .service-text {
+    padding: 0 35px 0 0;
+  }
+}
+@media (max-width: 768px) {
+  .account-btn {
+    display: none;
+  }
+  .non-res-acbtn {
+    display: flex !important;
+    height: auto;
+    margin-top: 20px;
+  }
+  .account-btn > a {
+    font-size: 15px;
+    padding: 12px 20px;
+    color: #fff;
+  }
+  .hdr-nav ul {
+    justify-content: start;
+    padding-top: 50px;
+  }
+  .banner-bg {
+    height: 450px;
+    margin-top: -65px;
+  }
+  .banner-text h1 {
+    font-size: 35px;
+  }
+  .banner-btn a {
+    padding: 13px 20px;
+    font-size: 12px;
+  }
+  .tool-id-text {
+    position: relative;
+  }
+  .service-item {
+    justify-content: center;
+  }
+  .trade-step {
+    margin: 0 65px;
+  }
+  .trade-column {
+    padding-left: 15px;
+  }
+  .trade-circle {
+    padding: 9px 15px;
+  }
+  .trade-column p {
+    font-size: 15px;
+  }
+  .trade-step-hdr p {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 576px) {
+  .hdr-row {
+    flex-direction: column-reverse;
+  }
+  .banner-bg {
+    height: 700px;
+  }
+  .banner-img {
+    margin-top: 50px;
+  }
+  .tool-btn {
+    text-align: left !important;
+  }
+  .container {
+    padding: 0 15px;
+  }
+  .service-text {
+    padding: 0 15px 0 0;
+  }
+  .service-item {
+    justify-content: center;
+    align-items: center;
+  }
+  .trade-step {
+    margin: 0 10px;
+  }
+}
+@media (max-width: 450px) {
+  .banner-bg {
+    height: 620px;
+  }
+  .trade-step-hdr {
+    margin-bottom: 10px;
+  }
+  .trade-column-item {
+    flex-direction: column;
+  }
+  .trade-column {
+    padding-left: 0;
+    width: 100%;
+  }
+  .trade-column-item::before {
+    display: none;
+  }
+  .trade-step-hdr {
+    margin-bottom: 15px;
+  }
+  .trade-column p {
+    font-size: 15px;
+  }
+  .trade-circle {
+    font-size: 18px;
+  }
+  .trade-circle {
+    padding: 12px 17px;
+  }
+}
