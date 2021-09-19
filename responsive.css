@@ -2,6 +2,9 @@
   .container {
     max-width: 1000px;
   }
+  .plat-left-img img {
+    padding-left: 0;
+  }
 }
 @media (max-width: 992px) {
   .header-section {
@@ -158,6 +161,27 @@
   .service-text {
     padding: 0 35px 0 0;
   }
+  .plat-left-img img {
+    margin-left: 50px;
+    width: 100%;
+    margin-top: 80px;
+  }
+  .plat-right-text h3 {
+    font-size: 32px;
+  }
+  .pci-icon {
+    padding: 10px 15px;
+  }
+  .pci-icon i {
+    font-size: 25px;
+  }
+  .rdi-left p {
+    margin-top: 60px;
+    margin-left: 0;
+  }
+  .read-details-item {
+    margin-bottom: 40px;
+  }
 }
 @media (max-width: 768px) {
   .account-btn {
@@ -209,6 +233,31 @@
   .trade-step-hdr p {
     margin-bottom: 0;
   }
+  .plat-right-text h6 {
+    margin: 0 75px;
+  }
+  .plat-right-text {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .plat-connect {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .platform-section {
+    padding: 0 0 40px 0;
+  }
+  .plat-left-img img {
+    margin-top: 30px;
+  }
+  .res-h3 h3 {
+    font-size: 28px;
+    text-align: left;
+  }
+  .service-text {
+    padding: 0;
+    text-align: left;
+  }
 }
 @media (max-width: 576px) {
   .hdr-row {
@@ -235,6 +284,13 @@
   }
   .trade-step {
     margin: 0 10px;
+  }
+  .rdi-left {
+    width: 60px;
+    margin-right: 15px;
+  }
+  .rdi-right h6 {
+    margin: 0 50px 15px 0;
   }
 }
 @media (max-width: 450px) {
@@ -265,5 +321,20 @@
   }
   .trade-circle {
     padding: 12px 17px;
+  }
+  .plat-right-text h3 {
+    font-size: 29px;
+  }
+  .plat-right-text h6 {
+    margin: 0 50px;
+  }
+  .rdi-left {
+    width: 40px;
+    margin-right: 15px;
+  }
+}
+@media (max-width: 350px) {
+  .plat-right-text h6 {
+    margin: 0 20px;
   }
 }
