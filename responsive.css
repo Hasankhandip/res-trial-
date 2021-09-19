@@ -7,7 +7,7 @@
   .header-section {
     background: transparent;
     padding: 25px 0;
-    position: fixed;
+    position: sticky;
     width: 100%;
     height: auto;
     top: 0;
@@ -15,7 +15,7 @@
     z-index: 9999;
   }
   .banner-section {
-    margin-top: 145px;
+    margin-top: 65px;
   }
   .market-page-1 {
     background-image: url(img/main-bg.png);
