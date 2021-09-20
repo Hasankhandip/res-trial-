@@ -8,6 +8,20 @@
   .award-item {
     margin: 0 80px;
   }
+  .number-section {
+    padding: 80px 100px;
+  }
+  .num-text {
+    margin: 0;
+    text-align: right;
+  }
+  .c-text p {
+    padding-right: 0;
+  }
+  .company-item {
+    flex-wrap: wrap;
+    justify-content: right;
+  }
 }
 @media (max-width: 992px) {
   .header-section {
@@ -197,6 +211,67 @@
   .footer-item {
     margin-bottom: 10px;
   }
+  .market-page {
+    position: sticky;
+    left: 0;
+    top: 0;
+    background-image: url(img/main-bg.png);
+    background-color: #212224;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .m-tool h1 {
+    margin-bottom: 15px !important;
+  }
+  .offer-optn p {
+    flex-direction: column;
+    padding: 20px !important;
+  }
+  .offer-optn p a {
+    margin-left: 0;
+    margin-top: 25px;
+    display: block !important;
+  }
+  .com-p p {
+    display: block !important;
+  }
+  .tm-item {
+    justify-content: center;
+  }
+  .m-tool p {
+    margin: 20px 80px 10px 80px;
+  }
+  .num-text {
+    text-align: center;
+  }
+  .company-item {
+    padding-left: 0;
+    justify-content: center !important;
+    margin-top: 40px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .number-section {
+    padding: 80px 0;
+  }
+  .c-num p {
+    width: 100%;
+    text-align: center;
+  }
+  .number-left {
+    margin-top: 0;
+    text-align: center;
+  }
+  .ni-text h1 br {
+    display: none;
+  }
+  .c-icon {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .c-text p {
+    padding: 0 100px;
+  }
 }
 @media (max-width: 768px) {
   .account-btn {
@@ -316,6 +391,22 @@
   .fooetr-hdr {
     margin-bottom: 40px;
   }
+  .trade-left {
+    margin-bottom: 50px;
+  }
+  .trade-list {
+    display: block;
+  }
+  .tl-left {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .com-p p {
+    margin: 0 50px;
+  }
+  .ni-text h1 {
+    font-size: 38px;
+  }
 }
 @media (max-width: 576px) {
   .hdr-row {
@@ -355,6 +446,25 @@
   }
   .fooetr-hdr .row > * {
     width: 50%;
+  }
+  .m-tool p {
+    margin: 20px 0px 10px 0px;
+  }
+  .tm-img {
+    margin: 0 25px;
+  }
+  .tm-img img {
+    width: 100%;
+    margin: 0;
+  }
+  .trust-inner {
+    padding: 15px;
+  }
+  .c-text p {
+    padding: 0;
+  }
+  .com-p p {
+    margin: 0;
   }
 }
 @media (max-width: 450px) {
@@ -415,9 +525,34 @@
   .footer-social ul li {
     margin-right: 10px;
   }
-  .carousel-control-next, .carousel-control-prev {
-	width: 10%;
-}
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 10%;
+  }
+  .offer-list table thead tr th {
+    font-size: 14px;
+  }
+  .trade-left {
+    display: block;
+  }
+  .trade-icon {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .tm-item {
+    display: block;
+  }
+  .tm-text {
+    margin-top: 30px;
+    align-items: center;
+  }
+  .tm-text p {
+    padding: 0 25px;
+    text-align: center;
+  }
+  .tool-hdr-left h1 {
+    font-size: 30px;
+  }
 }
 @media (max-width: 380px) {
   .plat-right-text h6 {
