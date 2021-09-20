@@ -265,6 +265,8 @@
   .plat-left-img img {
     margin-top: 0;
     margin-left: 0;
+    padding-top: 20px;
+    padding-left: 35px;
   }
   .res-h3 h3 {
     font-size: 28px;
