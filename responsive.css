@@ -298,6 +298,16 @@
   .features-section {
     padding: 50px 0;
   }
+  .contact-left {
+    margin: 0 100px 70px 100px;
+  }
+  .contact-right {
+    padding-left: 0;
+    margin: 0 100px;
+  }
+  .contant-social {
+    margin-top: 30px;
+  }
 }
 @media (max-width: 768px) {
   .account-btn {
@@ -501,6 +511,12 @@
   .demo-bg {
     padding: 40px 25px;
   }
+  .contact-left {
+    margin: 0 30px 70px 30px;
+  }
+  .contact-right {
+    margin: 0 30px;
+  }
 }
 @media (max-width: 450px) {
   .banner-bg {
@@ -602,6 +618,12 @@
   .demo-p p {
     margin-bottom: 15px !important;
   }
+  .con-text {
+    align-items: start;
+  }
+  .submit-btn {
+    margin-top: 35px;
+  }
 }
 @media (max-width: 380px) {
   .plat-right-text h6 {
@@ -612,5 +634,11 @@
   }
   .f-inner {
     margin: 0 30px;
+  }
+  .contact-left {
+    margin: 0 0 70px 0;
+  }
+  .contact-right {
+    margin: 0;
   }
 }
