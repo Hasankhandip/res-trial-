@@ -517,7 +517,8 @@
     padding: 8px 6px;
   }
   .payment-optn {
-    padding: 30px 0 20px 0;
+    margin: 30px 0 20px 0;
+    padding: 0;
   }
   .pbi-all {
     width: 100%;
@@ -534,6 +535,7 @@
   }
   .trade-left {
     display: block;
+    padding-left: 20px;
   }
   .trade-icon {
     margin-right: 0;
