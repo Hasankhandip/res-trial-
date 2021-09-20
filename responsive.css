@@ -272,6 +272,32 @@
   .c-text p {
     padding: 0 100px;
   }
+  .m-bt p {
+    display: block !important;
+  }
+  .banner-text {
+    display: block;
+    height: auto;
+  }
+  .cou-icon {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+  .course-item {
+    padding: 35px 0;
+  }
+  .cou-p p {
+    padding: 0;
+  }
+  .cou-p {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    height: auto;
+  }
+  .features-section {
+    padding: 50px 0;
+  }
 }
 @media (max-width: 768px) {
   .account-btn {
@@ -407,6 +433,9 @@
   .ni-text h1 {
     font-size: 38px;
   }
+  .f-inner {
+    margin: 0 80px;
+  }
 }
 @media (max-width: 576px) {
   .hdr-row {
@@ -465,6 +494,12 @@
   }
   .com-p p {
     margin: 0;
+  }
+  .academy-page {
+    padding: 35px 20px;
+  }
+  .demo-bg {
+    padding: 40px 25px;
   }
 }
 @media (max-width: 450px) {
@@ -555,6 +590,18 @@
   .tool-hdr-left h1 {
     font-size: 30px;
   }
+  .course-section {
+    padding: 20px 0;
+  }
+  .f-inner {
+    margin: 0 60px;
+  }
+  .tool-hdr-left h1 {
+    font-size: 27px;
+  }
+  .demo-p p {
+    margin-bottom: 15px !important;
+  }
 }
 @media (max-width: 380px) {
   .plat-right-text h6 {
@@ -562,5 +609,8 @@
   }
   .footer-social ul li {
     margin-right: 15px;
+  }
+  .f-inner {
+    margin: 0 30px;
   }
 }
