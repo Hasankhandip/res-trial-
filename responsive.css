@@ -489,8 +489,11 @@
   .payment-optn p a {
     display: none;
   }
-  .fooetr-hdr .row > * {
-    width: 50%;
+  .fooetr-hdr .row > .fl {
+    width: 40%;
+  }
+  .fooetr-hdr .row > .fr {
+    width: 60%;
   }
   .m-tool p {
     margin: 20px 0px 10px 0px;
@@ -635,10 +638,10 @@
     margin-top: 35px;
   }
   .footer-social ul li a {
-    font-size: 17px;
+    font-size: 18px;
   }
   .footer-social ul li {
-    margin-right: 9px;
+    margin-right: 10px;
   }
 }
 @media (max-width: 380px) {
