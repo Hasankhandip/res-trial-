@@ -643,6 +643,12 @@
   .footer-social ul li {
     margin-right: 10px;
   }
+  .contact-section {
+    padding-bottom: 60px;
+  }
+  .con-text h5 {
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 380px) {
   .plat-right-text h6 {
