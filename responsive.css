@@ -523,6 +523,9 @@
   .contact-right {
     margin: 0 30px;
   }
+  .banner-btn {
+    text-align: center;
+  }
 }
 @media (max-width: 450px) {
   .banner-bg {
