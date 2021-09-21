@@ -513,6 +513,7 @@
   }
   .academy-page {
     padding: 35px 20px;
+    margin-top: 50px;
   }
   .demo-bg {
     padding: 40px 25px;
@@ -632,6 +633,12 @@
   }
   .submit-btn {
     margin-top: 35px;
+  }
+  .footer-social ul li a {
+    font-size: 17px;
+  }
+  .footer-social ul li {
+    margin-right: 9px;
   }
 }
 @media (max-width: 380px) {
